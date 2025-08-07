@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills Display</title>
+  <link rel="stylesheet" href="./skill.css"/>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      background-color: #EAC8A6;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    /* Progress Bars */
+    .progress-bar {
+      background-color: #ddd;
+      border-radius: 5px;
+      overflow: hidden;
+      height: 20px;
+      margin-bottom: 15px;
+    }
+
+    .progress {
+      height: 100%;
+      color: white;
+      text-align: right;
+      padding-right: 10px;
+      line-height: 20px;
+    }
+
+    .html { width: 97%; background-color: #e44d26; }
+    .css { width: 60%; background-color: #264de4; }
+    .python { width: 40%; background-color: #306998; }
+
+    /* Skill Cards */
+    .skill-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+      margin-top: 40px;
+    }
+
+    .skill-card {
+      background-color: #fff;
+      padding: 15px 25px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      font-weight: bold;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <section id="skills">
+    <h2>My Skills</h2>
+
+    <!-- Progress Bars -->
+    <p>HTML</p>
+    <div class="progress-bar">
+      <div class="progress html">97%</div>
+    </div>
+
+    <p>CSS</p>
+    <div class="progress-bar">
+      <div class="progress css">60%</div>
+    </div>
+
+    <p>Python</p>
+    <div class="progress-bar">
+      <div class="progress python">40%</div>
+    </div>
+
+    <!-- Skill Cards -->
+    <div class="skill-container">
+      <div class="skill-card">HTML</div>
+      <div class="skill-card">CSS</div>
+      <div class="skill-card">Python</div>
+      <div class="skill-card">JavaScript</div>
+      <div class="skill-card">Git</div>
+    </div>
+  </section>
+<br>
+   <p><h3>Click<a href="./index.html"> here </a> to return to main menu</h3></p>
+<br/>
+<br/>
+
+<footer id="center">&copy; 2025 Oluwajomiloju S. All rights reserved.</footer> 
+</body>
+</html>
+ 

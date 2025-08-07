@@ -1,0 +1,38 @@
+#contact {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #EAC8A6;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+}
+
+#contact h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #100f0f;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #fffefe;
+  color: rgb(10, 10, 10);
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: not-allowed; /* fake button */
+}
+footer {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 20px 0;
+  font-size: 14px;
+}
